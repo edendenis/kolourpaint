@@ -12,3 +12,6 @@ facilitar quando incluir uma nova revisão/versão.
 
 **Revisão 1** - 31/07/2025
 - Atualização do README para instalação e uso do `catfish`.
+
+**Revisão 2** - 07/08/2025
+- Atualização do README para instalação e uso do `kolourpaint`.
