@@ -1,24 +1,22 @@
-# Como instalar o `catfish` no `Linux Ubuntu`
+# Como instalar o `kolourpaint` no `Linux Ubuntu`
 
 ## Resumo
 
-Este documento apresenta os passos necessários para instalar o utilitário `catfish` no `Linux Ubuntu`.
+Este documento apresenta os passos necessários para instalar o utilitário `kolourpaint` no `Linux Ubuntu`.
 
 ## _Abstract_
 
-_This document shows the steps required to install the `catfish` utility on `Linux Ubuntu`._
+_This document shows the steps required to install the `kolourpaint` utility on `Linux Ubuntu`._
 
-## Descrição [2]
+## Descrição
 
-### `catfish`
+### `kolourpaint`
 
-O `catfish` é uma ferramenta de busca para ambientes `Linux`. Ela combina utilitários como `locate` e `find` para localizar arquivos e pastas rapidamente por meio de uma interface simples.
+O `kolourpaint` é um editor de imagens simples para ambientes `Linux`. Ele oferece ferramentas básicas de desenho, como linhas, formas e preenchimentos, sendo uma alternativa leve ao `Microsoft Paint`.
 
+## 1. Instalar o `kolourpaint` no `Linux Ubuntu`
 
-
-## 1. Instalar o `catfish` no `Linux Ubuntu`
-
-Para instalar o `catfish`, siga os passos abaixo:
+Para instalar o `kolourpaint`, siga os passos abaixo:
 
 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
 
@@ -64,30 +62,30 @@ Para instalar o `catfish`, siga os passos abaixo:
     sudo apt full-upgrade -y
     ```
 
-3. Instale o `catfish` (pacote `poppler-utils`) e verifique a instalação:
+3. Instale o `kolourpaint` e verifique a instalação:
     ```bash
     sudo apt update
-    sudo apt install poppler-utils
-    catfish -v
+    sudo apt install kolourpaint
+    kolourpaint --version
     ```
 
+## 2. Abrir uma imagem existente
 
-## 2. Realizar uma busca simples
-
-Você pode executar o `catfish` informando um diretório para a pesquisa:
+Você pode abrir o `kolourpaint` informando um arquivo de imagem:
 ```bash
-catfish ~/Documentos
+kolourpaint ~/Imagens/exemplo.png
 ```
-Esse comando abre a interface do programa iniciando a busca na pasta `Documentos`.
+Esse comando abre a interface do programa carregando a imagem `exemplo.png`.
 
-## 3. Usar uma variável de terminal para definir o caminho de busca
+## 3. Usar uma variável de terminal para definir a imagem
 
-Também é possível definir o diretório em uma variável antes de chamar o `catfish`:
+Também é possível definir o caminho em uma variável antes de chamar o `kolourpaint`:
 ```bash
-search_dir="~/Documentos"
-catfish "$search_dir"
+img_path="~/Imagens/exemplo.png"
+kolourpaint "$img_path"
 ```
 
 ## Referências
 
-[1] OPENAI. ***Instalar catfish no Linux Ubuntu***. Disponível em: <https://chatgpt.com/c/6862cf14-11c8-8002-8a1d-96488e72f5cf>. ChatGPT. Acessado em: 11/03/2025 14:23.
+[1] OPENAI. ***Instalar kolourpaint no Linux Ubuntu***. Disponível em: <https://chatgpt.com/c/68942e26-b7a0-832f-9c96-7c57044cb43a>. ChatGPT. Acessado em: 07/08/2025 05:21.
+
