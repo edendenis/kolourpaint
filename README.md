@@ -87,9 +87,5 @@ kolourpaint "$img_path"
 
 ## Referências
 
-<<<<<<< HEAD
-[1] OPENAI. ***Instalar catfish no Linux Ubuntu***. Disponível em: <https://chatgpt.com/c/6862cf14-11c8-8002-8a1d-96488e72f5cf>. ChatGPT. Acessado em: 11/03/2025 14:23.
-=======
 [1] OPENAI. ***Instalar kolourpaint no Linux Ubuntu***. Disponível em: <https://chatgpt.com/c/68942e26-b7a0-832f-9c96-7c57044cb43a>. ChatGPT. Acessado em: 07/08/2025 05:21.
->>>>>>> codex/revise-project-for-kolourpaint-installation
 
